@@ -1,0 +1,13 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Helvetica";
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+}
