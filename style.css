@@ -2,12 +2,56 @@
     DEMO STYLE
 */
 
-@import "https://fonts.googleapis.com/css?family=Helvetica";
+@import "https://fonts.googleapis.com/css?family=Helvetica%20Neue";
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 p {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 300;
 }
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar ul li a:hover {
+    color: #1DA1F2;
+    background: #fff;
+}
+
+#ul_elements li a{
+    padding: 10px;
+    font-size:1.3em;
+    display: block;
+}
+
+.logo{
+    color: #1DA1F2;
+    font-size:2em !important;
+}
+
+span {
+ width: 10px;
+ padding-right: 40px;
+}
+
+/*#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}*/
+
+/*#sidebar.hide {
+    margin-left: -250px;
+}*/
