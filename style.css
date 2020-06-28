@@ -16,6 +16,14 @@ p {
     display: flex;
 }
 
+#tweetarea{
+  width: 100%;
+  display:flex;
+  align-items: stretch;
+  resize:none;
+
+}
+
 .buttonSidebar {
   background-color: #1DA1F2;
   color: white;
