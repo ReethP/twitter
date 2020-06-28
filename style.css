@@ -32,7 +32,7 @@ p {
 .flexbox-rightsidebar{
 	width: 200px;
 	margin:10px;
-	/*border:3px solid #333;*/
+	border:3px solid #333;
 	/*min-width: 375px;*/
 	/*min-height: 667px;*/
 	flex:1.2;
@@ -67,6 +67,12 @@ span {
     font-size:2em !important;
 }
 
+.tweeticons{
+    color: #1DA1F2;
+    font-size:1.4em !important;
+
+}
+
 .buttonSidebar {
   background-color: #1DA1F2;
   color: white;
@@ -76,6 +82,18 @@ span {
   width:100%;
   padding-top:10px;
   padding-bottom: 10px;
+}
+
+.buttonSidebar {
+  background-color: #1DA1F2;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  padding-top:8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right:20px;
 }
 
 .buttonSidebar:hover {
