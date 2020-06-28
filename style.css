@@ -2,17 +2,14 @@
     DEMO STYLE
 */
 
-@import "https://fonts.googleapis.com/css?family=Helvetica";
+@import "https://fonts.googleapis.com/css?family=Helvetica%20Neue";
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 p {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 300;
-<<<<<<< Updated upstream
-}
-=======
 }
 
 .flexbox-container{
@@ -135,4 +132,3 @@ span {
 /*#sidebar.hide {
     margin-left: -250px;
 }*/
->>>>>>> Stashed changes
