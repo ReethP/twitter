@@ -2,12 +2,160 @@
     DEMO STYLE
 */
 
-@import "https://fonts.googleapis.com/css?family=Helvetica";
+@import "https://fonts.googleapis.com/css?family=Helvetica%20Neue";
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 p {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 300;
 }
+
+.flexbox-container{
+    display: flex;
+}
+
+.buttonSidebar {
+  background-color: #1DA1F2;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 100px;
+}
+
+.buttonSidebar:hover {
+    background: #1992db;
+}
+
+#profpic{
+    border-radius:50%;
+    width:60px;
+    height:60px;
+}
+
+.buttonProfile {
+  background-color: #ffffff;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 100px;
+  border: none;
+  background: #1992db;
+}
+
+.flexbox-sidebar {
+    display: flex;
+    /*width: 100%;*/
+    align-items: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*border:3px solid #c90434;*/
+    /*background-color: #dfdfdf;*/
+    /*float:left;*/
+    position: fixed;
+/*    position: -webkit-sticky;
+    position: sticky;
+    left:0;*/
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar ul li a:hover {
+    color: #1DA1F2;
+}
+
+#ul_elements li a{
+    padding: 10px;
+    font-size:1.3em;
+    display: block;
+}
+
+.logo{
+    color: #1DA1F2;
+    font-size:2em !important;
+}
+
+span {
+ display: flex;
+ width: 10px;
+ padding-right: 40px;
+}
+
+
+
+.flexbox-tweets{
+    display:flex;
+    width:100%;
+    border:3px solid #c90434;
+    background-color: #dfdfdf;
+    overflow: auto;
+    flex-direction: column;
+    margin-left: 290px;
+}
+
+.flexbox-tweet1{
+    display:flex;
+    width:100%;
+    border:3px solid #eaeff2;
+    background-color: #ebd0d0;
+}
+
+.flexbox-tweet2{
+    display:flex;
+    width:100%;
+    border:3px solid #eaeff2;
+    background-color: #ebd0d0;
+}
+
+.flexbox-tweet3{
+    display:flex;
+    width:100%;
+    border:3px solid #eaeff2;
+    background-color: #ebd0d0;
+}
+
+.flexbox-tweet4{
+    display:flex;
+    width:100%;
+    border:3px solid #eaeff2;
+    background-color: #ebd0d0;
+}
+
+.flexbox-tweet5{
+    display:flex;
+    width:100%;
+    border:3px solid #eaeff2;
+    background-color: #ebd0d0;
+}
+
+
+
+
+
+
+
+.flexbox-rightsidebar{
+    display:flex;
+    width:100%;
+    border:3px solid #c90434;
+    background-color: #dfdfdf;
+    float:right;
+    /*position:;*/
+}
+
+
+
+/*#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}*/
+
+/*#sidebar.hide {
+    margin-left: -250px;
+}*/
