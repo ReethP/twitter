@@ -9,303 +9,143 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Fontawesome for icons CSS -->    
+    <!-- Fontawesome for icons CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
 </head>
 
 <body>
-    <div class = "flexbox-container">
-        <div class="flexbox-sidebar">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
-                <ul class="list-unstyled components" id = "ul_elements">
-                    <li>
-                        <a href="#" class = logo><span class = "fa fa-twitter"></span></a>
-                    </li>
-                    <li style = "color:#1DA1F2">
-                        <a href="#"><span class="fa fa-home"></span><b>Home</b></a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-hashtag"></span><b>Explore</b></a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-bell-o"></span><b>Notifications</b></a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-envelope-o"></span><b>Messages</b></a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-bookmark-o"></span><b>Bookmarks</b></a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-list-ul"></span><b>Lists</b></a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-user-o"></span><b>Profile</b></a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-caret-down"></span><b>More</b></a>
-                    </li>
-                    <button class="buttonSidebar"><b>Tweet</b></button>
-                </ul>
-                    <!-- <div> -->
-<!--                     <button class="buttonProfile">
-                        <div class = "d-flex flex-row align-items-start">
-                        <img src="https://simplybeautysydney.files.wordpress.com/2013/01/brad-profile-square.jpg" alt="user" id = profpic class = "p-2">
-                        </div>
-                        <p class = "p-2">Brad Miller</p>
-                    </button> -->
-                    <!-- </div> -->
-            </nav>
-        </div>
-        <!-- Tweets -->
-        <div class= "flexbox-tweets">
-            
-
-<!--             <div class = "d-flex flex-column">
-
-                <div class = "d-flex flex-row" style = "background-color: #f67847">
-                    <div class = "p-2">
-                        <a href="#">
-                        <img src="https://www.calwestern.com/wp-content/uploads/2017/12/person-3.png" alt="user" id = "profpic" style = "height:55px;width:55px">
-                        </a>
-                    </div>
-
-                    <div class = "d-flex flex-column">
-                        <div class = "p-2">
-                            <textarea placeholder="Describe yourself here..." style = "width:100%;resize:none;"></textarea>
-                        </div>
-
-                        <div class = "p-2">
-                            <p>Testing testing tweet right here because I need to make a tweet that should be inside a flex box huh
-                            and you know what this is very very fun you know!</p>     
-                        </div>
-
-                        <div class = "d-flex flex-row justify-content-between">
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-retweet" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-share" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-                            <div class = "p-2"></div>
-                        </div>                                                                        
-                    </div>
-                </div>
-            </div> -->
-
-
-
-
-            <div class = "d-flex flex-column">
-
-                <div class = "d-flex flex-row">
-                    <div class = "p-2">
-                        <a href="#">
-                        <img src="https://www.calwestern.com/wp-content/uploads/2017/12/person-3.png" alt="user" id = "profpic" style = "height:55px;width:55px">
-                        </a>
-                    </div>
-
-                    <div class = "d-flex flex-column">
-                        <div class = "p-2">
-                            <div class = "d-flex flex-row" id = "bgadd">
-                                <div class = "p-2"><a href="#"><b>Ryan Paladium</b></a></div>
-                                <div class = "p-2"><a href="#" style = "color:#828282;font-size:15px">@RyanPlad</a></div>
-                                <div class = "p-2"><b style = "color:#828282;font-size:15px">|  31m</b></div>
-                                <div class = "ml-auto p-2"><a href="#"><span class="fa fa-caret-down"></span></a></div>
-                            </div>
-                        </div>
-
-                        <div class = "p-2">
-                            <p>Testing testing tweet right here because I need to make a tweet that should be inside a flex box huh
-                            and you know what this is very very fun you know!</p>     
-                        </div>
-
-                        <div class = "d-flex flex-row justify-content-between">
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-retweet" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-share" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-                            <div class = "p-2"></div>
-                        </div>                                                                        
-                    </div>
-                </div>
+    <div class = "flexbox-container justify-content-center">
+        <div class="flexbox-sidebar flex-column d-none d-lg-block d-md-block d-sm-block" id = "sidebar">
+            <div class = "d-flex p-2">
+                <a href="#" class = "logo"><span class = "fa fa-twitter"></span></a>
             </div>
 
-
-
-
-
-            <div class = "d-flex flex-column">
-
-                <div class = "d-flex flex-row">
-                    <div class = "p-2">
-                        <a href="#">
-                        <img src="https://www.calwestern.com/wp-content/uploads/2017/12/person-3.png" alt="user" id = "profpic" style = "height:55px;width:55px">
-                        </a>
-                    </div>
-
-                    <div class = "d-flex flex-column">
-                        <div class = "p-2">
-                            <div class = "d-flex flex-row" id = "bgadd">
-                                <div class = "p-2"><a href="#"><b>Ryan Paladium</b></a></div>
-                                <div class = "p-2"><a href="#" style = "color:#828282;font-size:15px">@RyanPlad</a></div>
-                                <div class = "p-2"><b style = "color:#828282;font-size:15px">|  31m</b></div>
-                                <div class = "ml-auto p-2"><a href="#"><span class="fa fa-caret-down"></span></a></div>
-                            </div>
-                        </div>
-
-                        <div class = "p-2">
-                            <p>Testing testing tweet right here because I need to make a tweet that should be inside a flex box huh
-                            and you know what this is very very fun you know!</p>     
-                        </div>
-
-                        <div class = "d-flex flex-row justify-content-between">
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-retweet" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-share" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-                            <div class = "p-2"></div>
-                        </div>                                                                        
-                    </div>
-                </div>
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-home" style = "color:#1DA1F2"></span><b style = "color:#1DA1F2">Home</b></a>
             </div>
 
-
-
-
-            <div class = "d-flex flex-column">
-
-                <div class = "d-flex flex-row">
-                    <div class = "p-2">
-                        <a href="#">
-                        <img src="https://www.calwestern.com/wp-content/uploads/2017/12/person-3.png" alt="user" id = "profpic" style = "height:55px;width:55px">
-                        </a>
-                    </div>
-
-                    <div class = "d-flex flex-column">
-                        <div class = "p-2">
-                            <div class = "d-flex flex-row" id = "bgadd">
-                                <div class = "p-2"><a href="#"><b>Ryan Paladium</b></a></div>
-                                <div class = "p-2"><a href="#" style = "color:#828282;font-size:15px">@RyanPlad</a></div>
-                                <div class = "p-2"><b style = "color:#828282;font-size:15px">|  31m</b></div>
-                                <div class = "ml-auto p-2"><a href="#"><span class="fa fa-caret-down"></span></a></div>
-                            </div>
-                        </div>
-
-                        <div class = "p-2">
-                            <p>Testing testing tweet right here because I need to make a tweet that should be inside a flex box huh
-                            and you know what this is very very fun you know!</p>     
-                        </div>
-
-                        <div class = "d-flex flex-row justify-content-between">
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-retweet" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-share" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-                            <div class = "p-2"></div>
-                        </div>                                                                        
-                    </div>
-                </div>
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-hashtag"></span><b>Explore</b></a>
             </div>
 
-
-
-
-
-            <div class = "d-flex flex-column">
-
-                <div class = "d-flex flex-row">
-                    <div class = "p-2">
-                        <a href="#">
-                        <img src="https://www.calwestern.com/wp-content/uploads/2017/12/person-3.png" alt="user" id = "profpic" style = "height:55px;width:55px">
-                        </a>
-                    </div>
-
-                    <div class = "d-flex flex-column">
-                        <div class = "p-2">
-                            <div class = "d-flex flex-row" id = "bgadd">
-                                <div class = "p-2"><a href="#"><b>Ryan Paladium</b></a></div>
-                                <div class = "p-2"><a href="#" style = "color:#828282;font-size:15px">@RyanPlad</a></div>
-                                <div class = "p-2"><b style = "color:#828282;font-size:15px">|  31m</b></div>
-                                <div class = "ml-auto p-2"><a href="#"><span class="fa fa-caret-down"></span></a></div>
-                            </div>
-                        </div>
-
-                        <div class = "p-2">
-                            <p>Testing testing tweet right here because I need to make a tweet that should be inside a flex box huh
-                            and you know what this is very very fun you know!</p>     
-                        </div>
-
-                        <div class = "d-flex flex-row justify-content-between">
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-retweet" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-
-                            <div class = "p-2">
-                                <a href="#"><i class="fa fa-share" aria-hidden="true" style = "color:#828282"></i></a>
-                            </div>
-                            <div class = "p-2"></div>
-                        </div>                                                                        
-                    </div>
-                </div>
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-bell-o"></span><b>Notifications</b></a>
             </div>
 
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-envelope-o"></span><b>Messages</b></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-bookmark-o"></span><b>Bookmarks</b></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-list-ul"></span><b>Lists</b></a>
+            </div>
+
+            <div class = "d-flex p-2">
+                <a href="#"><span class="fa fa-user-o"></span><b>Profile</b></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-caret-down"></span><b>More</b></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+            <button class="buttonSidebar"><b>Tweet</b></button>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <button class="buttonSidebar" id = "sidepic">
+                    <div class = "d-flex flex-row">
+                        <div class = "d-flex p-1">
+                        <img src="https://www.calwestern.com/wp-content/uploads/2017/12/person-3.png" alt="user" id = "profpic" style = "height:55px;width:55px"></div>
+                        <div class = "d-flex p-1 flex-column align-items-start" style = "padding-top:20px;">
+                            <div class = "d-flex" style = "max-height: 20px;">
+                                <p class = "font-weight-bold  d-none d-md-block d-lg-block">
+                                    Ronel
+                                </p>
+                            </div>
+
+                            <div class = "d-flex">
+                                <p class = "font-weight-bold text-secondary">
+                                    @Ethan_Pag
+                                </p>
+                            </div>
+
+                            <!-- <div class = "d-flex">
+                                <a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </button>
+            </div>
         </div>
 
 
 
+        <div class="flexbox-sidebar flex-column d-sm-none d-block" id = "sidebar">
+            <div class = "d-flex p-2">
+                <a href="#" class = "logo"><span class = "fa fa-twitter"></span></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-home" style = "color:#1DA1F2"></span></a>
+            </div>
+
+            <div class = "d-flex p-2">
+                <a href="#"><span class="fa fa-hashtag"></span></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-bell-o"></span></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-envelope-o"></span></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-bookmark-o"></span></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-list-ul"></span></a>
+            </div>
+
+            <div class = "d-flex p-2">
+                <a href="#"><span class="fa fa-user-o"></span></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <a href="#"><span class="fa fa-caret-down"></span></a>
+            </div>
+
+            <div class = "d-flex p-2 ">
+            <button class="buttonSidebar"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+            </div>
+
+            <div class = "d-flex p-2 ">
+                <button class="buttonSidebar" id = "sidepic">
+                    <div class = "d-flex flex-row">
+                        <div class = "d-flex p-1">
+                        <img src="https://www.calwestern.com/wp-content/uploads/2017/12/person-3.png" alt="user" id = "profpic" style = "height:55px;width:55px"></div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+
+
+        <div class="flexbox-tweets">
+        </div>
+        <div class="flexbox-rightsidebar flex-column d-none d-md-block d-lg-block">
+        </div>
+
+        
     </div> 
 </body>
 
