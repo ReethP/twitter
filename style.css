@@ -87,59 +87,6 @@ span {
  padding-right: 40px;
 }
 
-
-
-.flexbox-tweets{
-    display:flex;
-    width:100%;
-    border:3px solid #c90434;
-    background-color: #dfdfdf;
-    overflow: auto;
-    flex-direction: column;
-    margin-left: 290px;
-}
-
-.flexbox-tweet1{
-    display:flex;
-    width:100%;
-    border:3px solid #eaeff2;
-    background-color: #ebd0d0;
-}
-
-.flexbox-tweet2{
-    display:flex;
-    width:100%;
-    border:3px solid #eaeff2;
-    background-color: #ebd0d0;
-}
-
-.flexbox-tweet3{
-    display:flex;
-    width:100%;
-    border:3px solid #eaeff2;
-    background-color: #ebd0d0;
-}
-
-.flexbox-tweet4{
-    display:flex;
-    width:100%;
-    border:3px solid #eaeff2;
-    background-color: #ebd0d0;
-}
-
-.flexbox-tweet5{
-    display:flex;
-    width:100%;
-    border:3px solid #eaeff2;
-    background-color: #ebd0d0;
-}
-
-
-
-
-
-
-
 .flexbox-rightsidebar{
     display:flex;
     width:100%;
